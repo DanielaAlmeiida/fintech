@@ -1,0 +1,48 @@
+@media screen and (max-width: 1075px) {
+    .main {
+        flex-direction: column;
+        
+    }
+
+    main > div:first-child {
+        height: 400px;
+        width: 350px;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .card-primario {
+        flex-direction: column;
+    }
+
+    .segundaSecao {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .segundaSecao {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .sidebar {
+        width: 25%;
+    }
+    main {
+        width: 75%;
+    }
+}
+
+/* Mobile
+@media screen and (max-width: 744px) {
+    main {
+        width: 100vw;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+*/

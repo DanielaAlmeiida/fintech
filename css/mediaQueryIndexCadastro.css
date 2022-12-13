@@ -1,0 +1,23 @@
+/* Background */
+@media screen and (max-width: 1230px) {
+    .index {
+        background-image: url('/img/backgroundMedium.jpg');
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .index {
+        background-image: url('/img/backgroundSmall.jpg');
+    }
+}
+
+/* Login */
+@media screen and (max-width: 767px) {
+    .cadastro {
+        display: none;
+    }
+    .form {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,61 @@
+.index  {
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+main {
+    background: rgba(0, 29, 50, 0.64);
+    backdrop-filter: blur(2px);
+    min-height: 82.5vh;
+}
+
+.cadastro {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+img {
+    width: 40px;
+}
+
+header, footer {
+    background-color: #E1F2FF;
+}
+
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1, footer > p > a {
+    color: var(--blue);
+}
+
+h2, .esqueceuSenha {
+    color: white;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+select, input[type="date"] {
+    cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    padding-bottom: 15px;
+}

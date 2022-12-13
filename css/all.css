@@ -1,0 +1,87 @@
+/*
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonte/Lato-Regular.ttf');
+    font-weight: 400;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato'; */
+}
+
+:root {
+  --blue: #355fad; /* Azul da Logo Principal */
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.centralizarTexto {
+    text-align: center;
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(114,155,185);
+ 
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ecf7ff;
+    border-radius: 10px;
+    border: 3px solid #5b87a7;
+  }
+
+
+
+.btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+
+}
+
+/* Altura do Input */
+.form-floating>.form-control, .form-floating>.form-select  {
+  height: 2.9rem;
+}
+
+.form-floating>label {
+  padding: 0.6rem 0.68rem;
+}
+
+.form-floating>.form-select {
+  padding-top: 0.7rem; /* Label do genêro estava para baixo */
+}
+
+.despesa {
+  color: red;
+}
+
+.receita {
+  color: rgb(0, 206, 0);
+}
