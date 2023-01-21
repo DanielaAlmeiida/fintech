@@ -1,7 +1,16 @@
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1137px) {
     .main {
         flex-direction: column;
-        
+    }
+
+    .primeiraSecao {
+        justify-content: flex-start;
+
+    }
+
+    .primeiraSecao > div:not(:first-child) {
+        border: none;
+        border-top: 1px solid rgb(168, 168, 168);
     }
 
     main > div:first-child {

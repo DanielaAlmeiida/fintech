@@ -1,0 +1,17 @@
+.card {
+    height: 300px;
+}
+
+.card-title {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.card > h3 > i.bi-gear {
+    color: black;
+}
+
