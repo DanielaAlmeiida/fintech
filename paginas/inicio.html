@@ -1,39 +1,16 @@
-<!-- Primeira Seção-->
-<div class="col-md-12 card card-primario primeiraSecao d-flex flex-wrap flex-row justify-content-around">
+<link rel="stylesheet" href="../css/inicio.css">
+<link rel="stylesheet" href="/css/mediaQueryInicio.css">
 
-    <div class="conteudo d-flex align-items-center">
-        <img src="/img/1.svg" alt="">
-        <div class="card-body">
-            <h3> Saldo do mês </h3>
-            <p>R$ 00,00</p>
-        </div>
-    </div>
-    
-    <div class="conteudo d-flex align-items-center">
-        <img src="/img/2.svg" alt="">
-        <div class="card-body">
-            <h3> Recebimentos do mês </h3>
-            <p class="receita">R$ 00,00</p>
-        </div>
-    </div>
 
-    <div class="conteudo d-flex align-items-center">
-        <img src="/img/3.svg" alt="">
-        <div class="card-body">
-            <h3> Gastos do mês </h3>
-            <p class="despesa"> R$ 00,00</p>
-        </div>
-    </div>
-
+<div class="titulo">
+    <h2> Início </h2>  
 </div>
 
-<!-- Segunda Seção-->
-<div class="segundaSecao col-md-12 d-flex justify-content-between flex-wrap gap-5">
-
-    <!-- Card -->
-    <div class="card cardSaldo"> 
-        <!-- Card Header-->
-        <div class="card-header pb-2 mt-1">
+<div class="grid-container">
+    <!--item 1 -saldoConta-->
+    <div class="grid-item item1 cardSaldo p-4">
+      
+        <div class="card-body p-4 mt-1 linhaSaldo">
             <h4 class="card-title"> Saldo em Conta </h4>
             <p class="card-text d-flex justify-content-between valorCard">
                 R$ 5.000,00
@@ -41,29 +18,57 @@
             </p>
         </div>
 
-        <!-- Card Body -->
-        <div class="card-body d-flex justify-content-between">
-        <div> 
-            <h4 class="card-title"> Receitas </h4>
-            <p class="card-text valorCard receita"> R$ 8.000,00 </p>
+        <div class="card-body d-flex p-4 justify-content-between">
+            <div> 
+                <h4 class="card-title"> Receitas </h4>
+                <div class="d-flex gap-2"> 
+                    <i class="setaCima bi bi-arrow-up"></i>
+                    <p class="card-text valorCard"> R$ 8.000,00 </p>
+                </div>
+                
+            </div>
+            <div>
+                <h4 class="card-title"> Despesas </h4>
+                <div class="d-flex gap-2"> 
+                    <i class="setaBaixo bi bi-arrow-down"></i>
+                    <p class="card-text valorCard"> R$ 3.000,00 </p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h4 class="card-title"> Despesas </h4>
-            <p class="card-text valorCard despesa"> R$ 3.000,00 </p>
-        </div>
-        </div>
+     
     </div>
 
-    <div class="card conteudo">
+    <!--item 2 -ultimoValor-->
+    <div class="grid-item item2 gap-4">
         <h3> Último valor gasto </h3>
         <p class="card-text valor despesa"> R$ 00,00 </p>
-        <p class="card-text descricao"> Descrição opcional. </p>
+        <small class="card-text descricao"> Descrição opcional. </small>
         <small class="data"> 19/11/2022 </small>     
     </div>
 
-    <div class="card conteudo">
+    <!--item 3-valorInvestimento-->
+    <div class="grid-item item3 gap-4">
         <h3> Valor total dos investimentos </h3>
         <p class="card-text">R$ 00,00</p>
+        <img src="/img/1.svg" alt="">
     </div>
 
+    <!--item 4-reciboMes-->
+    <div class="grid-item item4 gap-3">
+        <h3> Recebimentos do mês </h3>
+        <p class="receita">R$ 00,00</p>
+    </div>
+
+    <!--item 5-gastoMes-->
+    <div class="grid-item item5 gap-3">
+        <h3> Gastos do mês </h3>
+        <p class="despesa"> R$ 00,00</p>
+    </div>
+
+    <!--item 6-saldoMes-->
+    <div class="grid-item item6 gap-3">
+        <h3> Saldo do mês </h3>
+        <p>R$ 00,00</p>
+    </div>
+    
 </div>

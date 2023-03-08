@@ -36,21 +36,21 @@
             <main class="col-md-12 centralizarTexto d-flex d-flex justify-content-center align-items-center">
                 <!-- Cadastro-->
                 <section>
-                    <form action="POST">
+                    <form action="POST" class="formCadastro">
                         <h2 class="mt-4">Cadastro</h2>
 
                         <div class="form-floating mt-3 mb-3">
-                            <input type="text" class="form-control" placeholder="Nome" id="nome" required>
+                            <input type="text" class="form-control" placeholder="Nome" id="nome" required minlength="3">
                             <label for="nome">Nome</label>
                         </div>
 
                         <div class="form-floating mt-3 mb-3">
-                            <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome" required>
+                            <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome" required minlength="3">
                             <label for="sobrenome">Sobrenome</label>
                         </div>
 
                         <div class="form-floating mt-3 mb-3">
-                            <input type="email" class="form-control" placeholder="Email" id="email" required>
+                            <input type="email" class="form-control" placeholder="Email" id="email" required minlength="4">
                             <label for="nome">Email</label>
                         </div>
 

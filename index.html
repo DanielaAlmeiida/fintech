@@ -47,7 +47,7 @@
                             <label for="nome">Email</label>
                         </div>
                         <!-- Senha -->
-                        <div class="form-floating mb-3">
+                        <div class="form-floating">
                             <input type="password" class="form-control" placeholder="Senha" id="senha" required>
                             <label for="senha">Senha</label>
                             <!--
@@ -55,6 +55,11 @@
                                 Sua senha deve ter no mínimo 8 caractéres
                             </small>
                             -->
+                        </div>
+                        <!-- Lembrar de mim -->
+                        <div class="lembrarDeMim">
+                            <input type="checkbox">
+                            <label for="lembrar">Lembrar de mim</label>
                         </div>
                         
                         <button type="submit" class="btn btn-primary col-md-12 mb-3">Entrar</button>
@@ -76,10 +81,12 @@
 
                 <!-- Cadastro -->
                 <section class="col-md-6 centralizarTexto cadastro">
-                    <h2>É novo por aqui?</h2>
-                    <a href="paginas/cadastro.html">
-                        <button class="btn btn-primary">Cadastre-se</button>
-                    </a>
+                    <div>
+                        <h2 class="mb-4">É novo por aqui?</h2>
+                        <a href="paginas/cadastro.html">
+                            <button class="btn btn-primary">Cadastre-se</button>
+                        </a>
+                    </div>
                 </section>
 
             </main>

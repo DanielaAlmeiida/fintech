@@ -8,5 +8,8 @@ app.config(function($routeProvider) {
         .when("/configuracoes", {
             templateUrl: "../paginas/configuracoes.html"
         })
+        .when("/transacoes", {
+            templateUrl: "../paginas/transacoes.html"
+        })
     //.otherwise({ redirectTo: '../paginas.inicio.html'})
 })

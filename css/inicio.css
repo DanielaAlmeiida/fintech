@@ -1,0 +1,133 @@
+h2 {
+    color: #344050;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+h4, h2 {
+    font-size: 1.3rem;
+
+}
+
+.titulo {
+    height: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: area area area area;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    height: 83vh;
+    gap: 25px;
+
+}
+
+.grid-item {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 4px 3px -2px #BABABA;
+    height: 300px;
+}
+
+.item4, .item5, .item6 {
+    height: 180px;
+}
+
+.grid-item:not(:first-child) {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    color: white;
+    background-color: #259296;
+   
+}
+  
+.item2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.item3 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.item4 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item6 {
+    grid-column: 3 / span 2 ;
+    grid-row: 2;
+}
+
+
+
+.card-header > p, .card-header > h4, .card-title, .valorCard {
+    color: white;
+}
+
+.setaCima, .setaBaixo{
+    color: rgb(0, 128, 85);
+    text-align: center;
+    padding: 5px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(143, 215, 218, .6);
+}
+
+.setaBaixo{
+    color: #ff0000;
+}
+
+.cardSaldo {
+    padding: 10px;
+}
+
+.linhaSaldo {
+    border-bottom: 1px solid rgb(143, 215, 218, .4);
+
+}
+
+
+.grid-item > img {
+    height: 60px;
+    background-color: #efefef;
+    padding: 11px;
+    border-radius: 6px;
+}
+
+.data, .descricao {
+    color: gray;
+    font-size: 1rem;
+}
+
+
+.grid-item > h3 {
+    font-size: 1.35rem;
+}
+
+.grid-item > p {
+    font-size: 1.9rem;
+}
+

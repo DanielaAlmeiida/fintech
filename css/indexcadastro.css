@@ -5,7 +5,7 @@
 }
 
 main {
-    background: rgba(0, 29, 50, 0.64);
+    background: rgba(1, 35, 37, 0.5);
     backdrop-filter: blur(2px);
     min-height: 82.5vh;
 }
@@ -23,33 +23,29 @@ img {
 }
 
 header, footer {
-    background-color: #E1F2FF;
+    background-color: #2b353e;
 }
 
 header {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: #259296 2px solid;
 }
 
 footer {
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-top: #259296 2px solid;
 }
+
 
 h1 {
     font-size: 2rem;
 }
 
 h1, footer > p > a {
-    color: var(--blue);
+    color: white;
 }
 
 h2, .esqueceuSenha {
     color: white;
 }
-
-h2 {
-    text-shadow: 2px 2px 4px #000000;
-}
-
 
 select, input[type="date"] {
     cursor: pointer;
@@ -58,4 +54,27 @@ select, input[type="date"] {
 input[type="date"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
     padding-bottom: 15px;
+}
+
+/* Background dos formulários */
+.login > form, .cadastro > div, .formCadastro  {
+    background-color: rgb(43,53,62, .8);
+    padding: 40px;
+    border-radius: 8px;
+    border: #2b353e 2px solid;
+}
+
+.cadastro > div {
+    margin: 10px 290px 10px 290px;
+}
+
+.formCadastro {
+    padding: 12px 70px 12px 70px;
+}
+
+.lembrarDeMim {
+    text-align: start;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }

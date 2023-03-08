@@ -1,16 +1,17 @@
 main {
-    background-color: #99CBEF;
+    background-color: #efefef;;
     overflow-y: auto;
 }
 
 .dashboard{
-    background-color: #99CBEF;
+    background-color: #efefef;
     height: 100%;
 }
 
 sidebar {
-    background-color: var(--blue);
+    background-color: #2b353e;
     overflow-y: auto;
+    border-right: #259296 4px solid;
 }
 
 h1 {
@@ -48,17 +49,16 @@ li > a > span {
 }
 
 li {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 10px;
     padding: 3px 0px 3px 0px;
     border-radius: 20px;
 }
 
 
 li:hover, li > .active  {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
+    background-color: #259296;
+    border-radius: 12px 0px 0px 12px;
 }
-
 
 .descricao {
     font-size: .8rem;
@@ -84,14 +84,12 @@ a.saudacao, .cardSaldo {
     font-weight: 600;
 }
 
-.conteudo {
-    padding: 20px;
-}
-
 .card {
     /*box-shadow: 1px 1px 1px 1px #65afe4;*/
-    border-radius: 6px;
+    border-radius: 4px;
     border: none;
+
+    box-shadow: 7px 5px 3px -2px #BABABA;
 }
 
 
@@ -118,12 +116,12 @@ main > div:first-child{
 }
 
 .nav-link > span, i {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-weight: 400;
 }
 
-div.cardSaldo {
-    background-color: rgba(47, 131, 192, 1);
-}
+
+
 
 a.btn {
     background-color: var(--blue);
@@ -141,13 +139,7 @@ p {
     margin-bottom: .3rem;
 }
 
-.card {
+/*.card {
     border-top: 2px solid #2F83C0;
-}
+}*/
 
-.conteudo > img {
-    height: 60px;
-    background-color: #bee0f8;
-    padding: 11px;
-    border-radius: 6px;
-}
