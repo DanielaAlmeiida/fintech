@@ -1,19 +1,5 @@
-h2 {
-    color: #344050;
-    background-color: white;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 12px;
-    width: 200px;
-}
-
 h4, h2 {
     font-size: 1.3rem;
-
-}
-
-.titulo {
-    height: 50px;
 }
 
 .grid-container {
@@ -25,7 +11,6 @@ h4, h2 {
     width: 100%;
     height: 83vh;
     gap: 25px;
-
 }
 
 .grid-item {
@@ -52,8 +37,7 @@ h4, h2 {
     grid-column: 1 / span 2;
     grid-row: 1;
     color: white;
-    background-color: #259296;
-   
+    background-color: var(--verdePrincipal);
 }
   
 .item2 {
@@ -81,8 +65,6 @@ h4, h2 {
     grid-row: 2;
 }
 
-
-
 .card-header > p, .card-header > h4, .card-title, .valorCard {
     color: white;
 }
@@ -100,28 +82,22 @@ h4, h2 {
     color: #ff0000;
 }
 
-.cardSaldo {
-    padding: 10px;
-}
-
 .linhaSaldo {
     border-bottom: 1px solid rgb(143, 215, 218, .4);
 
 }
 
-
 .grid-item > img {
     height: 60px;
-    background-color: #efefef;
+    background-color: var(--brancoFundo);
     padding: 11px;
     border-radius: 6px;
 }
 
 .data, .descricao {
-    color: gray;
+    color: var(--cinzaParagrafo);
     font-size: 1rem;
 }
-
 
 .grid-item > h3 {
     font-size: 1.35rem;

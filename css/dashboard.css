@@ -1,17 +1,15 @@
-main {
-    background-color: #efefef;;
+main, sidebar {
     overflow-y: auto;
-}
-
-.dashboard{
-    background-color: #efefef;
-    height: 100%;
 }
 
 sidebar {
-    background-color: #2b353e;
-    overflow-y: auto;
-    border-right: #259296 4px solid;
+    background-color: var(--verdeEscuro);
+    border-right: var(--verdePrincipal) 4px solid;
+}
+
+.dashboard{
+    background-color: var(--brancoFundo);
+    height: 100%;
 }
 
 h1 {
@@ -19,29 +17,8 @@ h1 {
     color: white;
 }
 
-h2 {
-    color: white;
-}
-
-h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-h4 {
-    font-size: 1rem;
-}
-
 a {
     font-size: 1.1rem;
-}
-
-.data {
-    opacity: .7;
-}
-
-nav > ul > li > a {
-    font-size: medium;
 }
 
 li > a > span {
@@ -51,21 +28,14 @@ li > a > span {
 li {
     margin: 0px 0px 0px 10px;
     padding: 3px 0px 3px 0px;
-    border-radius: 20px;
 }
 
-
 li:hover, li > .active  {
-    background-color: #259296;
+    background-color: var(--verdePrincipal);
     border-radius: 12px 0px 0px 12px;
 }
 
-.descricao {
-    font-size: .8rem;
-}
-
 .saudacao {
-    border-radius: 11px;
     padding: 10px;
     margin: 3px;
     margin-bottom: 15px;
@@ -80,66 +50,7 @@ a.saudacao, .cardSaldo {
 
 }
 
-.receita, .despesa {
-    font-weight: 600;
-}
-
-.card {
-    /*box-shadow: 1px 1px 1px 1px #65afe4;*/
-    border-radius: 4px;
-    border: none;
-
-    box-shadow: 7px 5px 3px -2px #BABABA;
-}
-
-
-
-.primeiraSecao > div:not(:first-child) {
-    border-left: 2px solid rgba(146, 146, 146, .2);
-    border-radius: 3px;
-}
-
-main > div:first-child{
-    height: 150px;
-}
-
-.segundaSecao > .card {
-    width: 310px;
-    height: 150px;
-}
-
-.card-icon {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    align-self: center;
-}
-
 .nav-link > span, i {
     color: #ffffff;
     font-weight: 400;
 }
-
-
-
-
-a.btn {
-    background-color: var(--blue);
-    border-color: #ffffff;
-    border: 1px solid;
-}
-
-a.btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: #ffffff;
-    border: 1px solid;
-}
-
-p {
-    margin-bottom: .3rem;
-}
-
-/*.card {
-    border-top: 2px solid #2F83C0;
-}*/
-

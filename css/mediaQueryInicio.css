@@ -1,9 +1,4 @@
 @media screen and (max-width: 1020px) {
-
-    h2{
-        color: red;
-    }
-
     .item1 {
         grid-column: 1;
         grid-row: 1;

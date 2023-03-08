@@ -23,15 +23,15 @@ img {
 }
 
 header, footer {
-    background-color: #2b353e;
+    background-color: var(--verdeEscuro);
 }
 
 header {
-    border-bottom: #259296 2px solid;
+    border-bottom: var(--verdePrincipal) 2px solid;
 }
 
 footer {
-    border-top: #259296 2px solid;
+    border-top: var(--verdePrincipal) 2px solid;
 }
 
 
@@ -61,7 +61,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: rgb(43,53,62, .8);
     padding: 40px;
     border-radius: 8px;
-    border: #2b353e 2px solid;
+    border: var(--verdeEscuro) 2px solid;
 }
 
 .cadastro > div {

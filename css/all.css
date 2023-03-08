@@ -14,7 +14,11 @@
 }
 
 :root {
-  --blue: #259296; /* Verde da Logo Principal, Botões e Sidebar*/
+  --verdePrincipal: #259296; /* Verde principal*/
+  --verdeEscuro: #2b353e; /* Sidebar, Footer e Header background-color */
+  --brancoFundo:  #efefef; /* Background Dashboard */
+  --pretoTitulo: #344050; /* Preto titulo principais */
+  --cinzaParagrafo: #5e6e82; /* Cinza claro paragrafos */
 }
 
 html, body {
@@ -46,14 +50,14 @@ a {
   }
 
   *::-webkit-scrollbar-track {
-    background: #2b353e;
+    background: var(--verdeEscuro);
  
   }
 
   *::-webkit-scrollbar-thumb {
     background-color: #b2dce4;
     border-radius: 10px;
-    border: 3px solid #2b353e;
+    border: 3px solid var(--verdeEscuro);
   }
 
 
@@ -85,8 +89,12 @@ a {
   color: rgb(0, 206, 0);
 }
 
+.receita, .despesa {
+  font-weight: 600;
+}
+
 .btn {
-  background-color: var(--blue);
+  background-color: var(--verdePrincipal);
   border: none;
 }
 
@@ -104,7 +112,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #344050;
+  color: var(--pretoTitulo);
 }
 
 p {
@@ -113,4 +121,14 @@ p {
 
 footer > p {
   color: white;
+}
+
+.tituloDashboard {
+  color: var(--pretoTitulo);
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px;
+  font-size: 1.3rem;
+  width: 20%;
 }
