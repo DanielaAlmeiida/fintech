@@ -1,24 +1,16 @@
-h4, h2 {
-    font-size: 1.3rem;
-}
-
 .grid-container {
     display: grid;
     grid-template-areas: area area area area;
     padding: 20px;
     font-size: 25px;
-    color: white;
     width: 100%;
     height: 83vh;
     gap: 25px;
 }
 
 .grid-item {
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 3px 4px 3px -2px #BABABA;
     height: 300px;
-}
+  }
 
 .item4, .item5, .item6 {
     height: 180px;
@@ -65,9 +57,7 @@ h4, h2 {
     grid-row: 2;
 }
 
-.card-header > p, .card-header > h4, .card-title, .valorCard {
-    color: white;
-}
+
 
 .setaCima, .setaBaixo{
     color: rgb(0, 128, 85);
@@ -99,11 +89,18 @@ h4, h2 {
     font-size: 1rem;
 }
 
-.grid-item > h3 {
+h3 {
     font-size: 1.35rem;
 }
 
 .grid-item > p {
-    font-size: 1.9rem;
+    font-size: 1.3rem;
 }
 
+.valorCard{
+    font-size: 1.3rem;
+}
+
+.card-title, .valorCard {
+    color: white;
+}

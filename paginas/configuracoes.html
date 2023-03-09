@@ -1,32 +1,38 @@
 <link rel="stylesheet" href="../css/configuracoes.css">
+<link rel="stylesheet" href="../css/mediaQueryConfiguracoes.css">
 
 <h2 class="tituloDashboard">Configurações</h2>
 
 <div class="grid-container">
 
-    <div class="card conteudo grid-item1">
-        <h3> Nome Sobrenome </h3>
+    <!--Editar perfil-->
+    <section class="grid-item item1">
+        <h3 class="p-2"> <i class="bi bi-person-fill"></i>  Nome Sobrenome </h3>
             
-        <div class="card-body">
-            <h2 class="card-title"> E-mail </h2>
-            <p class="card-text">nome@email.com</p>
+        <div>
+            <h4 class="item-title"> E-mail </h4>
+            <p class="item-text">nome@email.com</p>
     
-            <h2 class="card-title"> Endereço </h2>
-            <p class="card-text">Cidade, País</p>
+            <h4 class="item-title"> Endereço </h4>
+            <p class="item-text">Cidade, País</p>
     
-            <h2 class="card-title"> Data de Nascimento </h2>
-            <p class="card-text"> dd/mm/aaaa </p>
+            <h4 class="item-title"> Data de Nascimento </h4>
+            <p class="item-text"> dd/mm/aaaa </p>
         </div>
-    </div>
+
+        <button class="btn"> Editar perfil </button>
+    </section>
     
-    <div class="card conteudo grid-item2">
-        <h3> <i class="bi bi-gear"></i> Configurações </h3>
-        <div class="card-body">
-            <h2 class="card-title"> Notificações </h2>
-            <p class="card-text"> Gerenciar notificações</p>
+    <!--Configurações-->
+    <section class="grid-item item2">
+        <h3 class="p-2"> <i class="bi bi-gear-fill"></i> Configurações </h3>
+
+        <div>
+            <h4 class="item-title"> Notificações </h4>
+            <p class="item-text"> Gerenciar notificações</p>
     
-            <h2 class="card-title"> Dúvidas </h2>
+            <h4 class="item-title"> Dúvidas </h4>
         </div>
-    </div>
+    </section>
     
 </div>

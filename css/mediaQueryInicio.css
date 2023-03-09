@@ -1,4 +1,4 @@
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1250px) {
     .item1 {
         grid-column: 1;
         grid-row: 1;
@@ -29,4 +29,9 @@
         grid-column: 1;
         grid-row: 6;
     }
+}
+
+@media screen and (max-width: 1250px) {
+
+
 }

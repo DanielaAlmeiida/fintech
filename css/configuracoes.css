@@ -1,32 +1,47 @@
-.card {
-    height: 300px;
-}
-
-.card-title {
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-}
-
-p {
-    margin-bottom: 1rem;
-}
-
-.card > h3 > i.bi-gear {
-    color: black;
-}
-
-
 .grid-container {
     display: grid;
-    gap: 30px;
+    gap: 40px;
+    padding: 20px;
 }
 
-.grid-item1 {
-    grid-column: 1 / span 2;
+.grid-item {
+    padding: 20px;
+}
+
+.item1 {
+    grid-column: 1;
     grid-row: 1;
   }
   
-.grid-item2 {
-    grid-column: 3;
-    grid-row: 1 / span 3;
+.item2 {
+    grid-column: 2;
+    grid-row: 1;
   }
+
+
+.item-title {
+    color: var(--pretoTitulo);
+    font-size: 1rem;
+}
+
+.item-text {
+    color: var(--cinzaParagrafo);
+}
+
+.item-title, .item-text {
+    margin-left: 15px;
+}
+
+
+section > h3 {
+    font-size: 1.4rem;
+}
+
+.grid-item > h3 > i.bi {
+    color: var(--pretoTitulo);
+}
+
+.btn {
+    margin-left: 12px;
+}
+
