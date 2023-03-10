@@ -111,17 +111,6 @@ footer > p {
   color: white;
 }
 
-.tituloDashboard {
-  color: var(--pretoTitulo);
-  background-color: white;
-  border-radius: 12px;
-  padding: 15px;
-  margin: 20px;
-  font-size: 1.3rem;
-  width: 15rem;
-  box-shadow: 2px 2px 2px -1px #BABABA;
-}
-
 .grid-item {
   border-radius: 10px;
   background-color: white;

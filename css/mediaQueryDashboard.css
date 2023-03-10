@@ -1,13 +1,23 @@
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1320px) {
     .sidebar {
-        width: 25%;
+        width: 22vw;
     }
     main {
-        width: 75%;
+
     }
 }
 
-/* Mobile
+/*
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        display: none;
+    }
+    main {
+        width: 100vw;
+    }
+}
+
+ Mobile
 @media screen and (max-width: 744px) {
     main {
         width: 100vw;

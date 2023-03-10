@@ -12,8 +12,17 @@ sidebar {
     height: 100%;
 }
 
+.tituloDashboard {
+    color: white;
+    background-color: var(--verdeEscuro);
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-bottom: 3px solid var(--verdePrincipal);
+}
+
 h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
 }
 
@@ -26,13 +35,17 @@ li > a > span {
 }
 
 li {
-    margin: 0px 0px 0px 10px;
-    padding: 3px 0px 3px 0px;
+    margin-left: 10px;
 }
 
-li:hover, li > .active  {
+li:hover, .active  {
     background-color: var(--verdePrincipal);
-    border-radius: 12px 0px 0px 12px;
+    transition: .3s;
+    border-radius: 12px 0px 0px 12px; 
+}
+
+.nav-link{
+    padding: 12px 0px 12px 12px;
 }
 
 .saudacao {
@@ -54,3 +67,4 @@ a.saudacao, .cardSaldo {
     color: #ffffff;
     font-weight: 400;
 }
+

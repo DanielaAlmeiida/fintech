@@ -1,12 +1,105 @@
 <link rel="stylesheet" href="../css/transacoes.css">
+<link rel="stylesheet" href="../css/mediaQueryTransacoes.css">
 
 <h2 class="tituloDashboard">Transações</h2>
 
-<div class="grid-container">
-    <div class="grid-item1">
-        1
+<section class="grid-container">
+
+    <!-- Receitas/Despesas -->
+    <div class="grid-item item1 transacoes d-flex flex-column centralizarTexto justify-content-around">
+        <h4>Visualizar:</h4>
+        <div>
+            <button class="btn">Receitas</button>
+            <button class="btn opaco">Despesas</button>
+        </div>
     </div>
-    <div class="grid-item2">
-        2
+
+    <!-- Transações -->
+    <div class="grid-item item2 d-flex flex-column justify-content-between">
+        
+        <section class="d-flex flex-column">
+            <div class="titulo d-flex justify-content-between">
+                <h3>Receitas</h3>
+                <div class="d-flex">
+                    <i class="iMes bi-caret-left"></i>
+                    <p class="mes">Mês</p>
+                    <i class="iMes bi-caret-right"></i>
+                </div>
+            </div>
+
+            <div class="transacao">
+                <div class="transacaoItem">
+                    <i class="i bi-briefcase-fill"></i>
+                    <div class="transacaoDescricao">
+                        <h5>Categoria</h5>
+                        <small>11 Jan 2023</small>
+                    </div>
+                </div>
+                <small class="receita">+ R$ 1300,00</small>
+            </div>
+    
+            <div class="transacao">
+                <div class="transacaoItem">
+                    <i class="i bi-briefcase-fill"></i>
+                    <div class="transacaoDescricao">
+                        <h5>Categoria</h5>
+                        <small>12 Jan 2023</small>
+                    </div>
+                </div>
+                <small class="receita">+ R$ 1300,00</small>
+            </div>
+    
+            <div class="transacao">
+                <div class="transacaoItem">
+                    <i class="i bi-briefcase-fill"></i>
+                    <div class="transacaoDescricao">
+                        <h5>Categoria</h5>
+                        <small>13 Jan 2023</small>
+                    </div>
+                </div>
+                <small class="receita">+ R$ 1300,00</small>
+            </div>
+        </section>
+        
+        <button class="btn btnAdicionar">Adicionar Receita</button>
+
     </div>
-</div>
+
+    <!-- Gráfico Transação por categoria -->
+    <div class="grid-item item3">
+        <section>
+            <h3>Receitas por Categoria</h3>
+            <div class="d-flex justify-content-around p-3">
+                <div class="grafico">
+                    Grafico
+                </div>
+                <div>
+                    <div class="itemCategoria">
+                        <div class="quadradoCor"></div> <p>Categoria 1</p>
+                        
+                    </div>
+                    <div class="itemCategoria">
+                        <div class="quadradoCor"></div> <p>Categoria 2</p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- 3 maiores Transaçoes -->
+        <section>
+            <h4>3 Maiores Receitas</h4>
+            <div class="transacao">
+                <div class="transacaoItem">
+                    <i class="i bi-briefcase-fill"></i>
+                    <div class="transacaoDescricao">
+                        <h5>Categoria</h5>
+                        <small>10 Jan 2023</small>
+                    </div>
+                </div>
+                <small class="receita">+ R$ 1300,00</small>
+            </div>
+        </section>
+
+    </div>
+
+</section>

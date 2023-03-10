@@ -25,18 +25,22 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
     <script src="/javascript/angularSPA.js"></script>
 
+    <!-- JavaScript -->
+    <script src="/javascript/sidebarNav.js"></script>
+
   </head>
   <body ng-app="App">
     <div class="dashboard d-flex flex-row">
 
         <!-- Sidebar -->
-        <sidebar class="col-md-2 sidebar">
+        
+        <sidebar class="col-md-2 sidebar" id="sidebar">
             
             <!--Header-->
             <header class="d-flex flex-column">
-                <div class="headerDiv mt-3 centralizarTexto d-flex justify-content-center gap-2">
+                <div class="headerDiv mt-3 centralizarTexto d-flex justify-content-center gap-2 p-3">
                     <h1>Financial Life</h1>
-                    <img src="/img/icon.png" alt="" style="height: 30px;" class="pb-1">
+                    <img src="/img/icon.png" alt="" style="height: 20px;" class="pb-1">
                 </div>
                 <a href="" class="saudacao mt-3 mb-4 gap-2">
                     <span> <i class="bi-person-fill"></i> </span>
@@ -47,56 +51,56 @@
             <!--Navegação Lateral Esquerda-->
             <nav>
                 <ul class="nav d-flex flex-column gap-3">
-                    <li class="Li LiInicio nav-item" id="LiInicio">
+                    <li>
                         <a class="nav-link active" href="#/">
                           <i class="bi bi-house"></i>
                           <span>Início</span>
                         </a>
                     </li>
 
-                    <li class="Li LiTransacoes nav-item" id="LiTransacoes">
+                    <li>
                         <a class="nav-link" href="#/transacoes"> 
                             <i class="bi bi-arrow-left-right"></i> 
                             <span>Transações</span>
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#/metas">
                             <i class="bi bi-flag"></i> 
                             <span>Metas</span> 
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#/agenda"> 
                             <i class="bi bi-calendar"></i>
                             <span>Agenda</span>
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#/categorias"> 
                             <i class="bi bi-bookmark"></i>
                             <span>Categorias</span> 
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#/graficos"> 
                             <i class="bi bi-bar-chart"></i>
                             <span>Gráficos</span> 
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#/configuracoes"> 
                             <i class="bi bi-gear"></i>
                             <span>Configurações</span> 
                         </a>
                     </li>
         
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="/index.html"> 
                             <i class="bi bi-box-arrow-left"></i>
                             <span>Sair</span>
